@@ -22,7 +22,9 @@
     .principal img{height: 200px;}
     .botoes{display: flex;}
     .botao1:link,
-    .botao1:visited{margin-right: 30px;}
+    .botao1:visited{margin-right: 40px;}
+    .botao2:link,
+    .botao2:visited {padding: 8px 45px;}
     .navegacao{margin-top: 30px;}
     .navegacao a:link,
     .navegacao a:visited {font-size: 110%;}
