@@ -18,11 +18,12 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     html{font-size: 13px;}
+    .logo {height: 40px;}
     .principal img{height: 200px;}
     .botoes{display: flex;}
     .botao1:link,
     .botao1:visited{margin-right: 30px;}
-    .navegacao{margin-top: 40px;}
+    .navegacao{margin-top: 30px;}
     .navegacao a:link,
     .navegacao a:visited {font-size: 110%;}
     .social{
