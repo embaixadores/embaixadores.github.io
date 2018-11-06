@@ -5,41 +5,144 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="./css/style.css" type:="text/css" rel="stylesheet">
+        <link href="./css/Grid.css" type:="text/css" rel="stylesheet">
         <link href="./css/queries.css" type:="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
         <link rel="icon" href="./image/icon.png">
         <title>Embaixadores do Reino</title>        
     </head>
-    <header>
-        <nav>
-            <a href = "./index.html"><img src = "image/iconwhite.png" class = "logo"></a>
-            <div class = "navegacao">
-                <a href = "./quemsomos.html" target = "_blank">Quem somos</a>
-                <a href = "./sobreretiro.html">Sobre o retiro</a>
+    <body>
+        <header>
+            <nav>
+                <a href = "./index.html"><img src = "image/iconwhite.png" class = "logo"></a>
+                <div class = "navegacao">
+                    <a href = "./quemsomos.html" target = "_blank">Quem somos</a>
+                    <a href = "#sobre_retiro">Sobre o retiro</a>
+                </div>
+            </nav>
+            <div class = "principal">
+                <img src = "image/3%25.png">
+                <h1>16, 17 e 18 de novembro</h1>
+                <h2>Retiro Embaixadores do Reino</h2>
+                <div class = "botoes">
+                    <a class = "botao1" href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAYAAPy6Mp1UQVFTV1ZQNjRWSU1WMlFDMVA0M0E3OTdXOC4u">Inscreva-se</a>
+                    <a class = "botao2" href = "https://www.youtube.com/watch?v=CfLvZPzOBgg" target = "_blank">Vídeo</a>
+                </div>
+            </div>        
+        </header>
+        
+        <section class = "sobre_retiro" id = "sobre_retiro">
+            <div class = "sobre">
+                <h3>Sobre o Retiro</h3>
+                <div class = "texto">
+                    <p>
+                        Baseado na série da Netflix, 3%, na qual as pessoas lutam para alcançar um lugar melhor, fizemos uma
+                        releitura, refletindo sobre acreditarmos que nosso lugar não é aqui, tendo como base diversos textos 
+                        bíblicos, dentre eles o texto de Joâo 17:16 que diz: "Eles não são do mundo, como também eu não sou".
+                    </p>
+                    <ul>
+                        <li>O valor da inscrição é de R$150,00. (Parcelado em até 3x sem juros)</li>
+                        <li>A idade mínima para participação é de 13 anos.</li>
+                        <li>Nosso Retiro acontecerá nos dias 16, 17 e 18 de Novembro.</li>
+                    </ul>
+                </div>
             </div>
-        </nav>
-        <div class = "principal">
-            <img src = "image/3%25.png">
-            <h1>16, 17 e 18 de novembro</h1>
-            <h2>Retiro Embaixadores do Reino</h2>
-            <div class = "botoes">
-                <a class = "botao1" href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAYAAPy6Mp1UQVFTV1ZQNjRWSU1WMlFDMVA0M0E3OTdXOC4u">Inscreva-se</a>
-                <a class = "botao2" href = "https://www.youtube.com/watch?v=CfLvZPzOBgg" target = "_blank">Vídeo</a>
+        </section>
+        
+        <section class = "local">
+            <h4>Local:</h4>
+            <div class = "localizacao" id = "localizacao">
+                <div class = "borda">
+                    <div class = "chacara">
+                        <div class = "irmao_sol">
+                            <h4>Chácara Irmão Sol</h4>
+
+                            <p>Situada no Lago Oeste, a 25 km do centro de Brasília, a Chácara de Eventos Irmão Sol possui 41 mil metros quadrados de área verde, com um espaço amplo, porém aconchegante e acolhedor.</p>
+                            <ul>
+                                <li>Salão de eventos com capacidade para 100 pessoas;</li>
+                                <li>Chalés com 14 apartamentos e capacidade para 80 pessoas;</li>
+                                <li>Área de camping;</li>
+                                <li>Piscinas;</li>
+                                <li>Quadras de futebol, vôlei e peteca;</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class = "mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15369.71650433741!2d-47.9346049!3d-15.6221208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x84b60699d2e1c6a1!2sIrm%C3%A3o+sol!5e0!3m2!1spt-BR!2sbr!4v1541515307579" width="600" height="450" frameborder="0" style="border:0"  class = "map" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
+        </section>
+        
+        <section class = "portifolio">
+            <h4>Fotos:</h4>
+            <ul class = "row">
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/1.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/2.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/3.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/4.jpg">                    
+                    </figure>
+                </li>  
+            </ul>
+            <ul class = "row clearfix">
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/5.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/6.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/7.jpg">                    
+                    </figure>
+                </li>
+                <li>
+                    <figure class = "fotos">
+                        <img src = "./image/portifolio/8.jpg">                    
+                    </figure>
+                </li>  
+            </ul>
+        </section>   
+        
+        
+        <footer>
+            <h4>Contato</h4>
+            <p>Para mais informação nos envie um email e nos siga em nossas Redes Sociais</p>
+            <div class = "social">
+                <a href = "mailto:embaixadores.do.reino@hotmail.com" target = "_blank">
+                    <img src="./icon/email.svg" alt="E-MAIL" class = "logosocial">
+                </a>
+                <a href = "https://www.instagram.com/embaixadordoreino/" target = "_blank">
+                    <img src="./icon/instagram.svg" alt="INSTAGRAM">
+                </a>
+                <a href = "https://www.facebook.com/embaixadores.pagina/" target = "_blank">
+                    <img src="./icon/facebook.svg" alt="FACEBOOK">
+                </a>
+                <a href = "https://www.youtube.com/channel/UCdwq-VA3pU5nzM5R8WX8sWg" target = "_blank">
+                    <img src="./icon/youtube.svg" alt="YOUTUBE">
+                </a>
         </div>
-        <div class = "social">
-            <a href = "mailto:embaixadores.do.reino@hotmail.com" target = "_blank">
-                <img src="./icon/email.svg" alt="E-MAIL" class = "logosocial">
-            </a>
-            <a href = "https://www.instagram.com/embaixadordoreino/" target = "_blank">
-                <img src="./icon/instagram.svg" alt="INSTAGRAM">
-            </a>
-            <a href = "https://www.facebook.com/embaixadores.pagina/" target = "_blank">
-                <img src="./icon/facebook.svg" alt="FACEBOOK">
-            </a>
-            <a href = "https://www.youtube.com/channel/UCdwq-VA3pU5nzM5R8WX8sWg" target = "_blank">
-                <img src="./icon/youtube.svg" alt="YOUTUBE">
-            </a>
-        </div>
-    </header>
+        </footer>
+    </body>
 </html>
+<!--
+
+-->

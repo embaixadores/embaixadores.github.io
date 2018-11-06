@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(./image/back.jpg);
+    background-size: auto;
+    background-position: center;
+}
 html{
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
@@ -29,6 +34,13 @@ h2{
     font-weight: 300;
     text-transform: uppercase;
     padding-top: 10px;  
+}
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: hidden;
 }
 /*---------------------------------------*/
 /*                  logo                */
@@ -137,14 +149,12 @@ h2{
 /*           redes sociais              */
 /*-------------------------------------*/
 .social{
-    display: inline-block;
-    position: absolute;
-    right: 10px;
-    bottom: 20px;
-    
+    display: block;
+    width: 30%;
+    margin: 40px auto;
 }
 .social img{
-    height: 30px;
+    height: 50px;
     width: auto;
     margin: 0 15px;
     padding: 2px;
@@ -153,4 +163,193 @@ h2{
 .social img:hover,
 .social img:active{
     border: 1px solid #fff;
+}
+/*---------------------------------------*/
+/*                quem somos            */
+/*-------------------------------------*/
+
+
+/*---------------------------------------*/
+/*           sobre o retiro             */
+/*-------------------------------------*/
+.sobre_retiro{
+    padding: 40px 0;
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(./image/back.jpg);
+    background-size: cover;*/
+    
+}
+.sobre_retiro h3{
+    font-size: 150%;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.sobre_retiro h3:after{
+    display: block;
+    height: 2px;
+    width: 245px;;
+    background-color: #fff;
+    content: " ";
+    margin: 5px auto 20px auto;
+}
+.texto{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 90%;
+    word-spacing: 3px;
+    margin-top: 40px;
+    color: #fff;
+}
+.sobre ul{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.sobre ul li{
+    padding: 10px 0;
+}
+/*.sobre:after{
+    display: block;
+    height: 2px;
+    width: 90%;
+    background-color: #fff;
+    content: " ";
+    margin: 5px auto 20px auto;
+}*/
+
+/*------------portifolio-----------*/
+
+.portifolio {
+    padding: 20px 0;
+    width: 95%;
+    margin: 2.5%;
+}
+.portifolio h4{
+    text-align: left;
+    font-size: 120%;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.portifolio ul{
+    padding: 0;
+    margin: 0;
+}
+.row {
+    list-style: none;
+    width: 100%;
+    margin-top: 70px;
+}
+.portifolio li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+.fotos {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.fotos img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    opacity: 0.7;
+    transition: transform 0.2s;
+}
+.fotos img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/*-----------LOCALIZACO----------------*/
+.local h4{
+    text-align: left;
+    font-size: 120%;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 2.5%;
+}
+.localizacao {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 40px;
+    border: 1px solid #fff;
+    height: 79vh;
+}
+.localizacao h4{
+    text-align: center;
+    font-size: 100%;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.localizacao p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 90%;
+    word-spacing: 3px;
+    margin-top: 40px;
+    color: #fff;
+}
+.localizacao ul{
+    list-style: circle;
+    width: 80%;
+    margin-left: 10%;
+    color: #fff;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 85%;
+    word-spacing: 3px;
+    margin-top: 30px;
+}
+
+.localizacao ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.mapa {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+.map{
+    width: 95%;
+    margin-right: 5%;
+}
+.chacara{
+    margin-top: 30px;
+   width: 50%;
+    float: left;
+}
+/*--------------footer--------*/
+
+footer{
+    padding: 40px 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+footer h4 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+footer p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 90%;
+    word-spacing: 3px;
+    margin-top: 40px;
+    color: #fff;
 }

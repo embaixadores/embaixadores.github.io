@@ -97,3 +97,54 @@ li{
 .social img:active{
     border: 1px solid #fff;
 }
+/*------------portifolio-----------*/
+.portifolio {
+    padding: 0;
+    margin-top: 20px;
+}
+.portifolio h3{
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.portifolio h3:before{
+    display: block;
+    height: 2px;
+    width: 350px;;
+    background-color: #000;
+    content: " ";
+    margin: 0 auto 5px auto;
+}
+
+.portifolio h3:after{
+    display: block;
+    height: 2px;
+    width: 350px;;
+    background-color: #000;
+    content: " ";
+    margin: 5px auto 20px; auto;
+}
+.row {
+    list-style: none;
+    width: 100%;
+}
+.portifolio li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+}
+.fotos {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.fotos img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.2s;
+}
+.fotos img:hover{
+    transform: scale(1.1);
+}
