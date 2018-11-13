@@ -46,11 +46,11 @@
     .portifolio h4{text-align: center;}
     .sobre h3:after{width: 150px;}
     h5:after {width: 40px;}
-    .programacao_config{height: 230vh;}
+    .programacao_config{height: 250vh;}
     .eu {display: none;}
     .dontshow {display: none;}
-    .last_inv {display:block;}
-    .download {padding-top: 50px;}
+   
+    
     .icon_menu {display: block; z-index: 9999;}
     .res_menu {
         position: absolute;
@@ -64,4 +64,26 @@
         border-radius: 5px;
         display: none;
     }
+    .download span{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 200%;
+    }
+    .program a {
+        margin-right: 0px;
+        font-size: 150%;
+    }
+    .programacao_texto p {font-size: 100%;}
+    .programacao_texto {margin-bottom: 20px;}
+    h5{font-size: 120%;}
+    
+    
 }
+
+
+
+
+
+
