@@ -40,4 +40,8 @@
     .local h4,
     .portifolio h4{text-align: center;}
     .sobre h3:after{width: 150px;}
+    h5:after {width: 40px;}
+    .programacao_config{height: 200vh;}
+    .eu {display: none;}
+    .navegacao {display: none;}
 }

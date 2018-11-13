@@ -81,6 +81,9 @@ h2{
     font-weight: 400;
     border-bottom: 2px solid #fff;
 }
+.navegacao .icon {
+    display: none;
+}
 /*---------------------------------------*/
 /*                  principal           */
 /*-------------------------------------*/
@@ -164,9 +167,6 @@ h2{
 .social img:active{
     border: 1px solid #fff;
 }
-/*---------------------------------------*/
-/*                quem somos            */
-/*-------------------------------------*/
 
 
 /*---------------------------------------*/
@@ -330,6 +330,95 @@ h2{
    width: 50%;
     float: left;
 }
+/*-----------------Programacao------------*/
+
+.program {
+    margin: 40px 0;
+}
+.program a {
+    font-size: 100%;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #222324;
+    background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 25px;    
+}
+.program a:hover{
+    border: 4px outset #fff;
+}
+.program a:active{
+    border: 4px inset #fff;
+}
+
+.download {
+    text-align: center;
+}
+.programacao_config{
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100vh;
+}
+.day h4{
+    text-align: center;
+    color: #fff;
+    font-Size: 140%;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.programacao_texto {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    padding: 20px 10px;
+}
+.programacao_texto p {
+    color: #fff;
+    text-align: justify;
+    font-size: 80%;
+    font-weight: 400;
+    word-spacing: 2px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.programacao_texto p:last-child{
+    font-size: 90%;
+    margin-top: 20px;
+}
+.programacao_texto span{
+    font-size: 100%;
+    text-decoration:underline;
+}
+h5{
+    color: #fff;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 400;
+    margin: 10px 0;
+}
+h5:after {
+    content:" ";
+    background-color: #fff;
+    height: 1px;
+    margin: 3px auto 0 auto;
+    width: 60px;
+    display: block;
+}
+.dontshow p{
+    color: transparent;
+}
+.first p{
+    margin-top: 20px;
+}
+
+.last p{
+    margin-top: 20px;
+}
+
 /*--------------footer--------*/
 
 footer{
@@ -352,4 +441,12 @@ footer p{
     word-spacing: 3px;
     margin-top: 40px;
     color: #fff;
+}
+.eu {
+    
+    margin-left: 90%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 70%;
+    
 }
