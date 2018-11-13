@@ -385,9 +385,10 @@ h2{
     margin-left: 5%;
     margin-top: 10px;
 }
-.programacao_texto p:last-child{
+.programacao_texto .last_p{
     font-size: 90%;
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 27px;
 }
 .programacao_texto span{
     font-size: 100%;
@@ -412,11 +413,14 @@ h5:after {
     color: transparent;
 }
 .first p{
-    margin-top: 20px;
+    margin-top: 39px;
 }
 
 .last p{
-    margin-top: 20px;
+    margin-top: 15px;
+}
+.last_inv {
+    margin-top: 15px
 }
 
 /*--------------footer--------*/
