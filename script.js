@@ -13,3 +13,5 @@ menu.addEventListener("click", function () {
         a = 0;
     }
 })
+
+
