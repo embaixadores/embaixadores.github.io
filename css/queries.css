@@ -31,6 +31,8 @@
         display: block;
         margin-top: 10px;
     }
+    .navegacao a:hover,
+    .navegacao a:active{border: none;}
     .mapa {width: 100%;}
     .map{width: 90%; margin-left: 5%; margin-right: 5%;}
     .chacara{width: 100%;}
