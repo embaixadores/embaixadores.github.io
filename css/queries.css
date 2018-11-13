@@ -25,9 +25,12 @@
     .botao1:visited{margin-right: 40px;}
     .botao2:link,
     .botao2:visited {padding: 8px 45px;}
-    .navegacao{margin-top: 30px;}
     .navegacao a:link,
-    .navegacao a:visited {font-size: 110%;}
+    .navegacao a:visited {
+        font-size: 90%;
+        display: block;
+        margin-top: 10px;
+    }
     .mapa {width: 100%;}
     .map{width: 90%; margin-left: 5%; margin-right: 5%;}
     .chacara{width: 100%;}
@@ -43,8 +46,20 @@
     h5:after {width: 40px;}
     .programacao_config{height: 230vh;}
     .eu {display: none;}
-    .navegacao {display: none;}
     .dontshow {display: none;}
     .last_inv {display:block;}
     .download {padding-top: 50px;}
+    .icon_menu {display: block; z-index: 9999;}
+    .res_menu {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: right;
+        margin-right: 15px;
+        padding: 30px 10px 10px 10px;
+        z-index: 9998;
+        border-radius: 5px;
+        display: none;
+    }
 }

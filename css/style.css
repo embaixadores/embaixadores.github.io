@@ -81,8 +81,13 @@ h2{
     font-weight: 400;
     border-bottom: 2px solid #fff;
 }
-.navegacao .icon {
+.icon_menu {
+    position: absolute;
+    color: #fff;
     display: none;
+    right: 20px;
+    top: 20px;
+   font-size: 150%;
 }
 /*---------------------------------------*/
 /*                  principal           */
