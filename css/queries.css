@@ -36,7 +36,7 @@
     .mapa {width: 100%;}
     .map{width: 90%; margin-left: 5%; margin-right: 5%;}
     .chacara{width: 100%;}
-    .localizacao{ height: 140vh;}
+    .localizacao{ height: 900px;}
     .portifolio li {width: 50%;}
     .social img{height: 30px; margin-top: 10px;}
     .social {
@@ -46,7 +46,7 @@
     .portifolio h4{text-align: center;}
     .sobre h3:after{width: 150px;}
     h5:after {width: 40px;}
-    .programacao_config{height: 270vh;}
+    .programacao_config{height: 1600px;}
     .eu {display: none;}
     .dontshow {display: none;}
    
