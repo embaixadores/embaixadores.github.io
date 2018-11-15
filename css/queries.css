@@ -64,12 +64,12 @@
         border-radius: 5px;
         display: none;
     }
-    .download span{
+    .download a span{
         display: block;
         margin-right: 0px;
         margin-bottom: 10px;
         margin-top: 20px;
-        font-size: 200%;
+        font-size: 140%;
     }
     .program a {
         margin-right: 0px;
